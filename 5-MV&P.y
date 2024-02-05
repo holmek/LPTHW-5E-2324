@@ -16,10 +16,10 @@ print(f"His teeth are usually {teeth} depending on the coffee.")
 total = age + height + weight
 print(f"If I add {age}, {height}, and {weight} I get {total}.")
 
-
+# height_inches & weight_pounds  ville være inputs du selv skulle skrive ind
 pounds_kilograms = 0.45359237
 inches_centimeters = 2.539999962
 
-height_centimeters = height_inches * inches_centimeters
+height_centimeters = height_inches * inches_centimeters 
 
 weight_kilograms = weight_pounds * pounds_kilograms
